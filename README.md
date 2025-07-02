@@ -7,8 +7,6 @@ A Minecraft resource pack containing custom models that can overwrite the textur
 ```
 In this command, the integer ```1``` refers to the CustomModelData value assigned to a specific custom model.
 
-
-
 ## How to Use
 
 1. **Add Your Custom Models:**
@@ -39,12 +37,7 @@ Each custom model is assigned a unique number, used in the `/trigger` command. B
 
 If your name isn’t listed, add it here with the next available 100-number range.
 
-- **Izilac:** 1–99
-- **Sho:** 100–199
-- **Lynnt:** 200-299
-- **James:** 300-399
-- **Default:** 950-999 (Used for already declared items with high nbt numbers)
-
+- **(username):** (number range)
 
 ## Creating a Release
 The following is a simple breakdown of the steps necessary for generating a new release for the resource pack.
@@ -77,7 +70,6 @@ resource-pack-prompt=
 resource-pack-sha1=ba099f05d64890057328ac44146bcf5fae918439
 ```
 
-
 ## Contained Models
 
 The following models are currently included in the resource pack:
@@ -85,63 +77,5 @@ The following models are currently included in the resource pack:
 > [!IMPORTANT]  
 > Only use those models that have been approved for use by the creators and for which you have obtained permission.
 
-- **Izilac (1–99):**  
-  - 1: Fancy Hat (Carved Pumpkin)
-  - 2: Sword Head (Carved Pumpkin)
-  - 3: Glasses (Carved Pumpkin)
-  - 4: Glasses Down (Carved Pumpkin)
-  - 5: Moustache (Carved Pumpkin)
-
-- **Sho (100–199):**  
-  - 100: Casino Chip Gold (Iron Nugget)
-  - 101: Popcorn Box (Golden Carrots)
-  - 102: Fantasy Scroll (Written Book)
-  - 103: Mystic Energy Source (Lantern)
-  - 104: Mystic Energy Source Animated (Lantern)
-  - 105: Bloody Crown (Carved Pumpkin)
-  - 106: Bottle of Wisdom (Iron Nugget)
-  - 107: Mounted Telescope (Carved Pumpkin)
-  - 108: Microphone Handheld Reporter (Redstone Torch)
-  - 109: Microphone Standing Office (Redstone Torch)
-
-- **Lynnt (200–299):**  
-  - 200: Wizard Hat Purple (Carved Pumpkin)
-  - 201: Wizard Apprentice (Carved Pumpkin)
-  - 202: Double Apprentice (Carved Pumpkin)
-  - 203: Bubilas Easter Egg (Carved Pumpkin)
-  - 204: Coco Easter Egg (Carved Pumpkin)
-  - 205: Dadmann Easter Egg (Carved Pumpkin)
-  - 206: Grim Easter Egg (Carved Pumpkin)
-  - 207: Haunted Easter Egg (Carved Pumpkin)
-  - 208: Izilac Easter Egg (Carved Pumpkin)
-  - 209: James Easter Egg (Carved Pumpkin)
-  - 210: Kiki Easter Egg (Carved Pumpkin)
-  - 211: Locky Easter Egg (Carved Pumpkin)
-  - 212: LoFi Easter Egg (Carved Pumpkin)
-  - 213: Lynnt Easter Egg (Carved Pumpkin)
-  - 214: Rem Easter Egg (Carved Pumpkin)
-  - 215: Roboss Easter Egg (Carved Pumpkin)
-  - 216: Sabre Easter Egg (Carved Pumpkin)
-  - 217: Sevel Easter Egg (Carved Pumpkin)
-  - 218: Sho Easter Egg (Carved Pumpkin)
-  - 219: Warden Easter Egg (Carved Pumpkin)
-  - 220: Bunny Easter Egg (Carved Pumpkin)
-  - 221: Frog Easter Egg (Carved Pumpkin)
-  - 222: Blue Easter Egg (Carved Pumpkin)
-  - 223: Gold Easter Egg (Carved Pumpkin)
-  - 224: Green Easter Egg (Carved Pumpkin)
-  - 225: Pink Easter Egg (Carved Pumpkin)
-  - 226: Yellow Easter Egg (Carved Pumpkin)
-  - 227: Dragon Tooth (Iron Nugget)
-  - 228: Magic Hourglass (Iron Nugget)
-  - 229: Magic Cup (Iron Nugget)
-  - 230: Magic Eye (Iron Nugget)
-  - 231: Magic Feather (Iron Nugget)
-  - 232: Magic Potion (Iron Nugget)
-
-- **James (200–299):**  
-  - 300: Choco Mooshake (Golden Carrot)
-  - 301: Red Velvet Cookie (Golden Carrot)
-
-- **Default Items (950–999):**  
-  - 950: Party Hat (Carved Pumpkin)
+- **(username) ((number range)):**  
+  - (number): (model name) ((base item))
