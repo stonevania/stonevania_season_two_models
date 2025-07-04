@@ -79,3 +79,6 @@ The following models are currently included in the resource pack:
 
 - **(username) ((number range)):**  
   - (number): (model name) ((base item))
+
+- **Sho (100–199):**  
+  - 100: Hat Beatle - Brown (Carved Pumpkin)

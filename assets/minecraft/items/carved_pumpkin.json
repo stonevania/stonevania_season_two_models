@@ -6,6 +6,15 @@
       "type": "model",
       "model": "block/carved_pumpkin"
     },
-    "entries": []
+    "entries": 
+    [
+      {
+      "model": {
+        "type": "model",
+        "model": "custom:item/beatle_brown"
+      },
+      "threshold": 100
+    }
+  ]
   }
 }
