@@ -82,3 +82,6 @@ The following models are currently included in the resource pack:
 
 - **Sho (100–199):**  
   - 100: Hat Beatle - Brown (Carved Pumpkin)
+
+- **REDPalette12 (200–299):**  
+  - 200: Akabeni Hat (Carved Pumpkin)
