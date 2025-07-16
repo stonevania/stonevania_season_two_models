@@ -11,7 +11,7 @@
       {
       "model": {
         "type": "model",
-        "model": "custom:item/beatle_brown"
+        "model": "custom:item/sho/beatle_brown"
       },
       "threshold": 100
     }
