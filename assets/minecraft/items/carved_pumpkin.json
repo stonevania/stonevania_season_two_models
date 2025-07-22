@@ -6,15 +6,21 @@
       "type": "model",
       "model": "block/carved_pumpkin"
     },
-    "entries": 
-    [
+    "entries": [
       {
       "model": {
         "type": "model",
         "model": "custom:item/sho/beatle_brown"
+        },
+        "threshold": 100
       },
-      "threshold": 100
-    }
-  ]
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/redpalette/akabenihat"
+        },
+        "threshold": 200
+      }
+    ]
   }
 }
