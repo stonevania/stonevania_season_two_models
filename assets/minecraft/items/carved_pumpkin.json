@@ -8,9 +8,9 @@
     },
     "entries": [
       {
-        "model": {
-          "type": "model",
-          "model": "custom:item/beatle_brown"
+      "model": {
+        "type": "model",
+        "model": "custom:item/sho/beatle_brown"
         },
         "threshold": 100
       },
