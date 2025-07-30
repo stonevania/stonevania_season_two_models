@@ -85,3 +85,7 @@ The following models are currently included in the resource pack:
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
+
+- **dadmannwalking (300–399):**  
+  - 300: Butterbeer (Golden Carrot)
+  - 301: Cauldron Cake (Golden Carrot)

@@ -2,15 +2,11 @@
   "model": {
     "type": "range_dispatch",
     "property": "custom_model_data",
-    "fallback": {
-      "type": "model",
-      "model": "block/carved_pumpkin"
-    },
     "entries": [
       {
-      "model": {
-        "type": "model",
-        "model": "custom:item/sho/beatle_brown"
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/beatle_brown"
         },
         "threshold": 100
       },
