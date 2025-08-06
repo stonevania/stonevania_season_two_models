@@ -20,6 +20,20 @@
           "model": "custom:item/redpalette/akabenihat"
         },
         "threshold": 200
+      },
+	   {
+        "model": {
+          "type": "model",
+          "model": "custom:item/athi/beanie"
+        },
+        "threshold": 300
+      },
+	 	  {
+        "model": {
+          "type": "model",
+          "model": "custom:item/athi/nessie_fedora"
+        },
+        "threshold": 301
       }
     ]
   }
