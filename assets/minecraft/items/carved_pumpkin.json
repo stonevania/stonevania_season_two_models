@@ -8,9 +8,9 @@
     },
     "entries": [
       {
-      "model": {
-        "type": "model",
-        "model": "custom:item/sho/beatle_brown"
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/beatle_brown"
         },
         "threshold": 100
       },
@@ -21,14 +21,14 @@
         },
         "threshold": 200
       },
-	   {
+      {
         "model": {
           "type": "model",
           "model": "custom:item/athi/beanie"
         },
         "threshold": 300
       },
-	 	  {
+      {
         "model": {
           "type": "model",
           "model": "custom:item/athi/nessie_fedora"
