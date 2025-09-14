@@ -82,6 +82,12 @@ The following models are currently included in the resource pack:
 
 - **Sho (100–199):**  
   - 100: Hat Beatle - Brown (Carved Pumpkin)
+  - 101: Costume - Wither (Carved Pumpkin)
+  - 102: Costume - Wither + Trident (Carved Pumpkin)
+  - 103: Costume - Creeper (Carved Pumpkin)
+  - 104: Donut - Chocolate (Cooked Porkchop)
+  - 105: Donut - Oreo (Cooked Porkchop)
+  - 106: Donut - Pink (Cooked Porkchop)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
