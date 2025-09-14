@@ -3,8 +3,8 @@
 	"credit": "Made by SHO310",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom:block/sho/hat_beatle/beatle_brown",
-		"particle": "custom:block/sho/hat_beatle/beatle_brown"
+		"0": "custom:item/sho/hat_beatle/beatle_brown",
+		"particle": "custom:item/sho/hat_beatle/beatle_brown"
 	},
 	"elements": [
 		{
