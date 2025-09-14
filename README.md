@@ -92,7 +92,7 @@ The following models are currently included in the resource pack:
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
 
-  - **Athi (300–399):**  
+- **Athi (300–399):**  
   - 300: Beanie (Carved Pumpkin)
   - 301: Nessie Fedora (Carved Pumpkin)
   - 302: Pirate Spyglass (Spyglass)
