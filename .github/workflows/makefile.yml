@@ -8,11 +8,19 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
-
-    - name: Make release
+    - name: Make new build
       run: make build
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy release
+    - uses: s0/git-publish-subdir-action@develop
+      needs: build
+      env:
+        REPO: self
+        BRANCH: gh-pages
+        FOLDER: build
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
