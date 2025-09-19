@@ -23,5 +23,5 @@ jobs:
         REPO: self
         BRANCH: main
         FOLDER: /
-        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     
