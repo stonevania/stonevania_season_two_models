@@ -74,7 +74,6 @@ cp "$CURRENT_README" "$RELEASE_README"
 ### Push generated release to new repo ###
 echo "Pushing new release to release repo..."
 GIT="git --git-dir=releases/final/.git"
-cd releases/final/
 
 # Prepare git for push
 $GIT add release.zip
