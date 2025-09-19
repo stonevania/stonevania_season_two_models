@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Publish
-      uses: s0/git-publish-subdir-action@v2.5.4
+      uses: s0/git-publish-subdir-action@develop
       env:
         REPO: git@github.com:stonevania/custom_models.git.git
         BRANCH: main
