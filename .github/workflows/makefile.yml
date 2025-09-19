@@ -1,4 +1,4 @@
-name: Makefile CI
+name: Make New Release
 
 on:
   push:
@@ -8,11 +8,20 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v4
-
     - name: Make release
       run: make build
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Publish
+      uses: s0/git-publish-subdir-action@v2.5.4
+      env:
+        REPO: git@github.com:stonevania/custom_models.git.git
+        BRANCH: main
+        FOLDER: releases/final
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
