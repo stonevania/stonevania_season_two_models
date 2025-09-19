@@ -24,4 +24,5 @@ jobs:
         BRANCH: main
         FOLDER: releases/final
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
     
