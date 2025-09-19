@@ -73,17 +73,18 @@ cp "$CURRENT_README" "$RELEASE_README"
 
 ### Push generated release to new repo ###
 echo "Pushing new release to release repo..."
+GIT="git --git-dir='releases/final/.git'"
 cd releases/final/
 
 # Prepare git for push
-git add release.zip
-git add hash.txt
-git add README.md
+$GIT add release.zip
+$GIT add hash.txt
+$GIT add README.md
 
 # Configure git
-git config --global user.name "dadmannwalking"
-git config --global user.email "dadmannwalkingyt@gmail.com"
+$GIT config --global user.name "dadmannwalking"
+$GIT config --global user.email "dadmannwalkingyt@gmail.com"
 
 # Push new release
-git commit -m "new release"
-git push -u origin main
+$GIT commit -m "new release"
+$GIT push -u origin main
