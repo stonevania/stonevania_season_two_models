@@ -1,6 +1,10 @@
 ### Push generated release to new repo ###
 echo "Pushing new release to release repo..."
 
+# Configure git
+git config --global user.name "dadmannwalking"
+git config --global user.email "dadmannwalkingyt@gmail.com"
+
 # Prepare git for push
 git add release.zip
 git add hash.txt
