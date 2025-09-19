@@ -73,6 +73,7 @@ cp "$CURRENT_README" "$RELEASE_README"
 
 ### Push generated release to new repo ###
 echo "Pushing new release to release repo..."
+pwd
 GIT="git --git-dir=releases/final/.git"
 
 # Prepare git for push
