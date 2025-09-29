@@ -20,5 +20,5 @@ jobs:
       env:
         REPO: self
         BRANCH: release
-        FOLDER: build
+        FOLDER: releases/final
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
