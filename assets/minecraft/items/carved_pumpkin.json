@@ -13,9 +13,44 @@
       {
         "model": {
           "type": "model",
+          "model": "custom:item/sho/costume_wither_skeleton_1"
+        },
+        "threshold": 101
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/costume_wither_skeleton_2"
+        },
+        "threshold": 102
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/costume_creeper_1"
+        },
+        "threshold": 103
+      },
+      {
+        "model": {
+          "type": "model",
           "model": "custom:item/redpalette/akabenihat"
         },
         "threshold": 200
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/athi/beanie"
+        },
+        "threshold": 300
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/athi/nessie_fedora"
+        },
+        "threshold": 301
       }
     ]
   }

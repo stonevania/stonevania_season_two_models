@@ -12,14 +12,14 @@
           "type": "model",
           "model": "custom:item/dadmann/butterbeer"
         },
-        "threshold": 300
+        "threshold": 400
       },
       {
         "model": {
           "type": "model",
           "model": "custom:item/dadmann/cauldron_cake"
         },
-        "threshold": 301
+        "threshold": 401
       }
     ]
   }
