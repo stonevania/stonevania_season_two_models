@@ -51,6 +51,20 @@
           "model": "custom:item/athi/nessie_fedora"
         },
         "threshold": 301
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/pink_cowboy_hat"
+        },
+        "threshold": 500
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/pixels/pixels_hat"
+        },
+        "threshold": 600
       }
     ]
   }
