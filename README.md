@@ -100,3 +100,9 @@ The following models are currently included in the resource pack:
 - **dadmannwalking (400–499):**  
   - 400: Butterbeer (Golden Carrot)
   - 401: Cauldron Cake (Golden Carrot)
+
+- **James (500–599):**  
+  - 500: Pink Cowboy Hat (Carved Pumpkin)
+
+- **Pixels (600–699):**  
+  - 600: Pixels Hat (Carved Pumpkin)
