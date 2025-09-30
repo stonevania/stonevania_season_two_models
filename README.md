@@ -96,3 +96,9 @@ The following models are currently included in the resource pack:
   - 300: Beanie (Carved Pumpkin)
   - 301: Nessie Fedora (Carved Pumpkin)
   - 302: Pirate Spyglass (Spyglass)
+
+- **James (400–499):**  
+  - 400: Pink Cowboy Hat (Carved Pumpkin)
+
+- **Pixels (500–599):**  
+  - 500: Pixels Hat (Carved Pumpkin)
