@@ -6,6 +6,21 @@
       "type": "model",
       "model": "item/golden_carrot"
     },
-    "entries": []
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/butterbeer"
+        },
+        "threshold": 400
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/cauldron_cake"
+        },
+        "threshold": 401
+      }
+    ]
   }
 }
