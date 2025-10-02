@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/apple"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/candied_apple"
+        },
+        "threshold": 402
+      }
+    ]
+  }
+}
