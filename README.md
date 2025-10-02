@@ -100,6 +100,10 @@ The following models are currently included in the resource pack:
 - **dadmannwalking (400–499):**  
   - 400: Butterbeer (Golden Carrot)
   - 401: Cauldron Cake (Golden Carrot)
+  - 402: Candied Apple (Apple)
+  - 403: Candy Corn (Sweet Berries)
+  - 404: Black Wrapped Candy (Sweet Berries)
+  - 405: Orange Wrapped Candy (Sweet Berries)
 
 - **James (500–599):**  
   - 500: Pink Cowboy Hat (Carved Pumpkin)

@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/sweet_berries"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/candy_corn"
+        },
+        "threshold": 403
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/black_wrapped_candy"
+        },
+        "threshold": 404
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/orange_wrapped_candy"
+        },
+        "threshold": 405
+      }
+    ]
+  }
+}
