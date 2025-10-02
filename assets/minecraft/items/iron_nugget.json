@@ -6,6 +6,14 @@
       "type": "model",
       "model": "item/iron_nugget"
     },
-    "entries": []
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/pumpkin_coin"
+        },
+        "threshold": 406
+      }
+    ]
   }
 }
