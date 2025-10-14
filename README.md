@@ -104,6 +104,7 @@ The following models are currently included in the resource pack:
   - 403: Candy Corn (Sweet Berries)
   - 404: Black Wrapped Candy (Sweet Berries)
   - 405: Orange Wrapped Candy (Sweet Berries)
+  - 406: Pumpkin Coin (Iron Nugget)
 
 - **James (500–599):**  
   - 500: Pink Cowboy Hat (Carved Pumpkin)
