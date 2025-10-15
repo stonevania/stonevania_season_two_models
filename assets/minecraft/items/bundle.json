@@ -1,0 +1,91 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "range_dispatch",
+            "property": "custom_model_data",
+            "entries": [
+              {
+                "threshold": 602,
+                "model": {
+                  "type": "range_dispatch",
+                  "property": "minecraft:bundle/fullness",
+                  "entries": [
+                    {
+                      "threshold": 0.0000001,
+                      "model": {
+                        "type": "model",
+                        "model": "custom:item/pixels/trick_or_treat_bag_full"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "custom:item/pixels/trick_or_treat_bag_empty"
+                  }
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/bundle"
+            }
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bundle_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bundle_open_front"
+              }
+            ]
+          },
+          "property": "minecraft:bundle/has_selected_item"
+        },
+        "when": "gui"
+      }
+    ],
+    "fallback": {
+      "type": "range_dispatch",
+      "property": "custom_model_data",
+      "entries": [
+        {
+          "threshold": 602,
+          "model": {
+            "type": "range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "entries": [
+              {
+                "threshold": 0.0000001,
+                "model": {
+                  "type": "model",
+                  "model": "custom:item/pixels/trick_or_treat_bag_full"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "custom:item/pixels/trick_or_treat_bag_empty"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/bundle"
+      }
+    },
+    "property": "minecraft:display_context"
+  }
+}
