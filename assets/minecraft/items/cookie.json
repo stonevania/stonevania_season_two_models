@@ -10,7 +10,7 @@
       {
         "model": {
           "type": "model",
-          "model": "custom:item/pixels/Creepy_Cupcake"
+          "model": "custom:item/pixels/creepy_cupcake2"
         },
         "threshold": 603
       }
