@@ -121,3 +121,5 @@ The following models are currently included in the resource pack:
 - **Pixels (600–699):**  
   - 600: Pixels Hat (Carved Pumpkin)
   - 602: Trick or Treat Bag (Bundle)
+  - 603: Creepy Cupcake (cookie)
+  - 604: Witches Brew (rotten flesh)
