@@ -4,29 +4,29 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/iron_nugget"
+      "model": "item/candle"
     },
     "entries": [
       {
         "model": {
           "type": "model",
-          "model": "custom:item/dadmann/pumpkin_coin"
+          "model": "custom:item/sho/talisman/tier_one_talisman"
         },
-        "threshold": 406
+        "threshold": 127
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/ghost_coin/ghost_coin"
+          "model": "custom:item/sho/talisman/tier_two_talisman"
         },
-        "threshold": 107
+        "threshold": 128
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/lock/lock"
+          "model": "custom:item/sho/talisman/tier_three_talisman"
         },
-        "threshold": 123
+        "threshold": 129
       }
     ]
   }

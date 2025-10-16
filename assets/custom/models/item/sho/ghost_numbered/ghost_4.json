@@ -1,0 +1,55 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by SHO310",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "custom:item/sho/ghost_numbered/ghost_4",
+		"particle": "custom:item/sho/ghost_numbered/ghost_4"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 6],
+			"to": [16, 16, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#0"},
+				"up": {"uv": [8, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [8, 0, 0, 0], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, 0.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 0, 0.75],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_righthand": {
+			"translation": [3.75, 5.75, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.75, 5.75, 0]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"translation": [0.25, 0.25, 0]
+		},
+		"head": {
+			"translation": [0, 13.5, 2.25]
+		},
+		"fixed": {
+			"translation": [0, 0, 2.75]
+		}
+	}
+}
+

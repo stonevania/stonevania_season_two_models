@@ -1,0 +1,57 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made by SHO310",
+	"texture_size": [32, 32],
+	"textures": {
+		"1": "custom:item/sho/talisman/tier_two_talisman"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 8],
+			"to": [14, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 5.5, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"south": {"uv": [0, 0, 5.5, 16], "texture": "#1"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#1"},
+				"up": {"uv": [5.5, 0, 0, 0], "texture": "#1"},
+				"down": {"uv": [0, 0, 5.5, 0], "texture": "#1"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"scale": [0.23, 0.23, 0.23]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -180, 0],
+			"scale": [0.23, 0.23, 0.23]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 162, 0],
+			"translation": [3, 1.75, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 162, 0],
+			"translation": [2.5, 1.75, 0],
+			"scale": [0.39, 0.39, 0.39]
+		},
+		"ground": {
+			"translation": [0, 1.75, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -3.75, 0],
+			"scale": [0.46, 0.46, 0.46]
+		},
+		"fixed": {
+			"translation": [0, -4.25, 0],
+			"scale": [0.55, 0.55, 0.55]
+		}
+	}
+}
