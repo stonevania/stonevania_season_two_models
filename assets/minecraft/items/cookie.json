@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/cookie"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/pixels/Creepy_Cupcake"
+        },
+        "threshold": 603
+      }
+    ]
+  }
+}
