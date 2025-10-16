@@ -1,0 +1,117 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/paper"
+    },
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_1"
+        },
+        "threshold": 108
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_2"
+        },
+        "threshold": 109
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_3"
+        },
+        "threshold": 110
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_4"
+        },
+        "threshold": 111
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_5"
+        },
+        "threshold": 112
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_6"
+        },
+        "threshold": 113
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_7"
+        },
+        "threshold": 114
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_8"
+        },
+        "threshold": 115
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_9"
+        },
+        "threshold": 116
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_10"
+        },
+        "threshold": 117
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_11"
+        },
+        "threshold": 118
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_12"
+        },
+        "threshold": 119
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_13"
+        },
+        "threshold": 120
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_14"
+        },
+        "threshold": 121
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/ghost_numbered/ghost_15"
+        },
+        "threshold": 122
+      }
+    ]
+  }
+}

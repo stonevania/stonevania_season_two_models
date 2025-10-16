@@ -4,29 +4,29 @@
     "property": "custom_model_data",
     "fallback": {
       "type": "model",
-      "model": "item/iron_nugget"
+      "model": "item/amethyst_shard"
     },
     "entries": [
       {
         "model": {
           "type": "model",
-          "model": "custom:item/dadmann/pumpkin_coin"
+          "model": "custom:item/sho/spiritbound_badge/spiritbound_badge_1"
         },
-        "threshold": 406
+        "threshold": 124
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/ghost_coin/ghost_coin"
+          "model": "custom:item/sho/spiritbound_badge/spiritbound_badge_2"
         },
-        "threshold": 107
+        "threshold": 125
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/lock/lock"
+          "model": "custom:item/sho/spiritbound_badge/spiritbound_badge_3"
         },
-        "threshold": 123
+        "threshold": 126
       }
     ]
   }

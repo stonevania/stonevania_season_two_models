@@ -88,6 +88,15 @@ The following models are currently included in the resource pack:
   - 104: Donut - Chocolate (Cooked Porkchop)
   - 105: Donut - Oreo (Cooked Porkchop)
   - 106: Donut - Pink (Cooked Porkchop)
+  - 107: Ghost Coin (Iron Nugged)
+  - 108-122: Ghosts Numbered (Paper)
+  - 123: Lock (Iron Nugged)
+  - 124: Spiritbound Badge 1 (Amethyst Shard)
+  - 125: Spiritbound Badge 1 (Amethyst Shard)
+  - 126: Spiritbound Badge 1 (Amethyst Shard)
+  - 127: Talisman Tier 1 (Candle)
+  - 128: Talisman Tier 2 (Candle)
+  - 129: Talisman Tier 3 (Candle)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
