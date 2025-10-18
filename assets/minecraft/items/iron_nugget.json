@@ -27,6 +27,27 @@
           "model": "custom:item/sho/lock/lock"
         },
         "threshold": 123
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/bat_coin"
+        },
+        "threshold": 407
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/skull_coin"
+        },
+        "threshold": 408
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/spider_coin"
+        },
+        "threshold": 409
       }
     ]
   }
