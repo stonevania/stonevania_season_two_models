@@ -48,6 +48,13 @@
           "model": "custom:item/dadmann/spider_coin"
         },
         "threshold": 409
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/soul_fragement/flame_green"
+        },
+        "threshold": 130
       }
     ]
   }

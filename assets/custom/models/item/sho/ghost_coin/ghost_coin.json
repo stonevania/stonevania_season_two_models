@@ -212,9 +212,11 @@
 			"scale": [0.15, 0.15, 0.15]
 		},
 		"firstperson_righthand": {
+			"translation": [0, 1, 0],
 			"scale": [0.21, 0.21, 0.21]
 		},
 		"firstperson_lefthand": {
+			"translation": [0, 1, 0],
 			"scale": [0.21, 0.21, 0.21]
 		},
 		"ground": {
@@ -229,6 +231,7 @@
 			"scale": [0.22, 0.22, 0.22]
 		},
 		"fixed": {
+			"translation": [0, 0, -0.5],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"on_shelf": {
