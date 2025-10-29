@@ -1,6 +1,18 @@
 {
   "pack": {
-    "pack_format": 64,
-    "description": "STONEVANIA S2 RESSOURCE PACK MC 1.21.7"
+    "pack_format": 15,
+		"supported_formats": [15, 69],
+		"min_format": 15,
+		"max_format": 69,
+    "description": [
+			{
+				"text": "■ Stonevania Season 2\n■",
+				"color": "#808080"
+			},
+			{
+        "text": " MC Version 1.21.10",
+				"color": "#808080"
+			}
+		]
   }
 }
