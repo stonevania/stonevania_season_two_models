@@ -27,6 +27,13 @@
           "model": "custom:item/sho/lock/lock"
         },
         "threshold": 123
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/pixels/gemstone"
+        },
+        "threshold": 601
       }
     ]
   }
