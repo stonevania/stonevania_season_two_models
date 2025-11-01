@@ -55,6 +55,13 @@
           "model": "custom:item/sho/soul_fragement/flame_green"
         },
         "threshold": 130
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/pixels/gemstone"
+        },
+        "threshold": 601
       }
     ]
   }
