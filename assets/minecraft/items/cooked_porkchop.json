@@ -10,21 +10,21 @@
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/donut_chocolate"
+          "model": "custom:item/sho/donuts/donut_chocolate"
         },
         "threshold": 104
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/donut_oreo"
+          "model": "custom:item/sho/donuts/donut_oreo"
         },
         "threshold": 105
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/donut_pink"
+          "model": "custom:item/sho/donuts/donut_pink"
         },
         "threshold": 106
       }

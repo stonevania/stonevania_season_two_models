@@ -10,28 +10,28 @@
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/beatle_brown"
+          "model": "custom:item/sho/hats/beatle_brown"
         },
         "threshold": 100
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/costume_wither_skeleton_1"
+          "model": "custom:item/sho/costumes/costume_wither_skeleton_1"
         },
         "threshold": 101
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/costume_wither_skeleton_2"
+          "model": "custom:item/sho/costumes/costume_wither_skeleton_2"
         },
         "threshold": 102
       },
       {
         "model": {
           "type": "model",
-          "model": "custom:item/sho/costume_creeper_1"
+          "model": "custom:item/sho/costumes/costume_creeper_1"
         },
         "threshold": 103
       },
