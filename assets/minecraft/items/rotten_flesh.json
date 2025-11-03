@@ -10,7 +10,7 @@
       {
         "model": {
           "type": "model",
-          "model": "custom:item/pixels/Witches_Brew"
+          "model": "custom:item/pixels/witches_brew"
         },
         "threshold": 604
       }
