@@ -3,8 +3,8 @@
 	"credit": "Made by SHO310",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "custom:item/sho/hat_beatle/beatle_brown",
-		"particle": "custom:item/sho/hat_beatle/beatle_brown"
+		"0": "custom:item/sho/hat_beatle/beatle_olive_green",
+		"particle": "custom:item/sho/hat_beatle/beatle_olive_green"
 	},
 	"elements": [
 		{
@@ -192,7 +192,7 @@
 			"translation": [0, 1.5, -9.25]
 		},
 		"on_shelf": {
-			"rotation": [90, 180, 0],
+			"rotation": [90, -180, 0],
 			"translation": [0, 0, 4.75]
 		}
 	},
