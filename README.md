@@ -98,6 +98,16 @@ The following models are currently included in the resource pack:
   - 128: Talisman Tier 2 (Candle)
   - 129: Talisman Tier 3 (Candle)
   - 130: Soul Fragement (Iron Nugget)
+  - 131: Hat Beatle - Green (Carved Pumpkin)
+  - 132: V-Stamp HQ (Iron Nugget)
+  - 133: V-Stamp SHO (Iron Nugget)
+  - 134: V-Stamp PIXEL (Iron Nugget)
+  - 135: V-Stamp LYNNT (Iron Nugget)
+  - 136: V-Stamp MOSSY (Iron Nugget)
+  - 137: V-Stamp FLORAL (Iron Nugget)
+  - 138: V-Stamp DADMAN (Iron Nugget)
+  - 139: V-Stamp KIKI (Iron Nugget)
+  - 140: V-Stamp JAMES (Iron Nugget)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
