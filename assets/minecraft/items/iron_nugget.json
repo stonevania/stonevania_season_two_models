@@ -62,6 +62,69 @@
           "model": "custom:item/pixels/gemstone"
         },
         "threshold": 601
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_hq"
+        },
+        "threshold": 132
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_sho"
+        },
+        "threshold": 133
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_pixel"
+        },
+        "threshold": 134
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_lynnt"
+        },
+        "threshold": 135
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_mossy"
+        },
+        "threshold": 136
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_floral"
+        },
+        "threshold": 137
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_dadman"
+        },
+        "threshold": 138
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_kiki"
+        },
+        "threshold": 139
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_james"
+        },
+        "threshold": 140
       }
     ]
   }

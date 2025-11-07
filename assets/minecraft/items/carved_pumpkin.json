@@ -69,6 +69,13 @@
           "model": "custom:item/pixels/pixels_hat"
         },
         "threshold": 600
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/hats/beatle_olive_green"
+        },
+        "threshold": 131
       }
     ]
   }
