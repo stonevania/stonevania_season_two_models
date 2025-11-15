@@ -125,6 +125,20 @@
           "model": "custom:item/sho/stamps/stamp_vanian_express_james"
         },
         "threshold": 140
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_macy"
+        },
+        "threshold": 141
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_will"
+        },
+        "threshold": 142
       }
     ]
   }
