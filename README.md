@@ -108,6 +108,8 @@ The following models are currently included in the resource pack:
   - 138: V-Stamp DADMAN (Iron Nugget)
   - 139: V-Stamp KIKI (Iron Nugget)
   - 140: V-Stamp JAMES (Iron Nugget)
+  - 141: V-Stamp MACY (Iron Nugget)
+  - 142: V-Stamp WILL (Iron Nugget)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
