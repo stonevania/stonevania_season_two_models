@@ -139,6 +139,34 @@
           "model": "custom:item/sho/stamps/stamp_vanian_express_will"
         },
         "threshold": 142
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/taskmaster/copper_piece"
+        },
+        "threshold": 410
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/taskmaster/silver_piece"
+        },
+        "threshold": 411
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/taskmaster/gold_piece"
+        },
+        "threshold": 412
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/taskmaster/platinum_piece"
+        },
+        "threshold": 413
       }
     ]
   }

@@ -130,6 +130,11 @@ The following models are currently included in the resource pack:
   - 407: Bat Coin (Iron Nugget)
   - 408: Skull Coin (Iron Nugget)
   - 409: Spider Coin (Iron Nugget)
+  - 410: Copper Piece (Iron Nugget)
+  - 411: Silver Piece (Iron Nugget)
+  - 412: Gold Piece (Iron Nugget)
+  - 413: Platinum Piece (Iron Nugget)
+  - 414: Task Book (Written Book)
 
 - **James (500–599):**  
   - 500: Pink Cowboy Hat (Carved Pumpkin)
