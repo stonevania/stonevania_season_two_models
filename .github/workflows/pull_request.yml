@@ -1,4 +1,4 @@
-name: PR to Discord
+name: Pull Request Notification
 
 on:
   pull_request_target:
@@ -8,6 +8,13 @@ jobs:
   PR:
     runs-on: ubuntu-latest
     steps:
-      - uses: Munbin-Lee/PR-to-Discord@v1.5.0
+      - name: Notify on Discord
+        uses: leticiamantovani/custom-github-actions@main
         with:
-          discord_webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          service: 'discord'
+          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          pr_title: ${{ github.event.pull_request.title }}
+          pr_url: ${{ github.event.pull_request.html_url }}
+          pr_action: ${{ github.event.action }}
+          pr_author: ${{ github.event.pull_request.user.login }}
+          repo_name: ${{ github.repository }}
