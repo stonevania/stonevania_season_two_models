@@ -9,9 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify on Discord
-        uses: leticiamantovani/custom-github-actions@main
-        with:
-          service: 'discord'
-          webhook_url: ${{ secrets.TEST_DISCORD_WEBHOOK_URL }}
-      - name: Debug — list files
-        run: ls -R .
+        env:
+          WEBHOOK_URL: ${{ secrets.TEST_DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "{\"content\": \"PR: ${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}\n${{ github.event.pull_request.html_url }}\"}" \
+               "$WEBHOOK_URL"
