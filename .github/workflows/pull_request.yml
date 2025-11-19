@@ -14,5 +14,5 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
                -X POST \
-               -d "{\"content\": \"PR: ${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}\n${{ github.event.pull_request.html_url }}\"}" \
+               -d "{\"content\": \"<@&1386628506405834782> a new PR has been opened: \n${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}\n${{ github.event.pull_request.html_url }}\"}" \
                "$WEBHOOK_URL"
