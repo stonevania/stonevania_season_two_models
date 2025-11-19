@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Notify on Discord
-        uses: leticiamantovani/custom-github-actions@v1.0.0
+        uses: leticiamantovani/pull-request-notifier@v1.0.0
         with:
           service: 'discord'
           webhook_url: ${{ secrets.TEST_DISCORD_WEBHOOK_URL }}
