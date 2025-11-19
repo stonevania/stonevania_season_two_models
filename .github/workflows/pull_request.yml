@@ -2,19 +2,14 @@ name: Pull Request Notification
 
 on:
   pull_request_target:
-    types: [opened, reopened]
+    types: [opened, reopened, closed, review_requested, review_request_removed]
 
 jobs:
   PR:
     runs-on: ubuntu-latest
     steps:
       - name: Notify on Discord
-        uses: leticiamantovani/custom-github-actions@main
+        uses: leticiamantovani/custom-github-actions@v1.0.0
         with:
           service: 'discord'
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          pr_title: ${{ github.event.pull_request.title }}
-          pr_url: ${{ github.event.pull_request.html_url }}
-          pr_action: ${{ github.event.action }}
-          pr_author: ${{ github.event.pull_request.user.login }}
-          repo_name: ${{ github.repository }}
+          webhook_url: ${{ secrets.TEST_DISCORD_WEBHOOK_URL }}
