@@ -6,6 +6,14 @@
       "type": "model",
       "model": "item/written_book"
     },
-    "entries": []
+    "entries": [
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/dadmann/taskmaster/task_book"
+        },
+        "threshold": 414
+      }
+    ]
   }
 }
