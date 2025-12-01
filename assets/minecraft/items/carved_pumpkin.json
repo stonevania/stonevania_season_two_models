@@ -76,6 +76,13 @@
           "model": "custom:item/sho/hats/beatle_olive_green"
         },
         "threshold": 131
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/christmas_hat/christmas_hat"
+        },
+        "threshold": 149
       }
     ]
   }

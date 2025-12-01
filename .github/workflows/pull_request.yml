@@ -2,7 +2,7 @@ name: Pull Request Notification
 
 on:
   pull_request_target:
-    types: [opened, reopened, closed]
+    types: [opened, reopened, submitted]
 
 jobs:
   PR:
@@ -15,4 +15,16 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d "{\"content\": \"<@&1440523825782587414> a PR requires attention: \n${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}\n${{ github.event.pull_request.html_url }}\"}" \
+               "$WEBHOOK_URL"
+  check_approval:
+    if: github.jevent.review.state == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify on Discjord
+        env:
+          WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          curl -H "Content-Type: application/json" \
+               -X POST \
+               -d "{\"content\": \"<@&1440523825782587414> a PR has been approved: \n${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}\n${{ github.event.pull_request.html_url }}\"}" \
                "$WEBHOOK_URL"
