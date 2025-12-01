@@ -2,7 +2,7 @@ name: Pull Request Notification
 
 on:
   pull_request_target:
-    types: [opened, reopened, closed, submitted]
+    types: [opened, reopened, submitted]
 
 jobs:
   PR:
