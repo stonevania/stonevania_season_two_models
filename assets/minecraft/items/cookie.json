@@ -17,7 +17,7 @@
 {
         "model": {
           "type": "model",
-          "model": "custom:item/pixels/hotcoco"
+          "model": "custom:item/pixels/hotcoco1"
         },
         "threshold": 605
       }
