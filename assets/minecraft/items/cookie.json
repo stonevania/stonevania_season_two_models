@@ -13,6 +13,13 @@
           "model": "custom:item/pixels/creepy_cupcake2"
         },
         "threshold": 603
+      },
+{
+        "model": {
+          "type": "model",
+          "model": "custom:item/pixels/hotcoco"
+        },
+        "threshold": 605
       }
     ]
   }
