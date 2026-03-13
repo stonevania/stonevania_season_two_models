@@ -167,6 +167,55 @@
           "model": "custom:item/dadmann/taskmaster/platinum_piece"
         },
         "threshold": 413
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_dadman"
+        },
+        "threshold": 150
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_floral"
+        },
+        "threshold": 151
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_grim"
+        },
+        "threshold": 152
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_james"
+        },
+        "threshold": 153
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_lynnt"
+        },
+        "threshold": 154
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_mossy"
+        },
+        "threshold": 155
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_pixels"
+        },
+        "threshold": 156
       }
     ]
   }

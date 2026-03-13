@@ -110,9 +110,9 @@ The following models are currently included in the resource pack:
   - 140: V-Stamp JAMES (Iron Nugget)
   - 141: V-Stamp MACY (Iron Nugget)
   - 142: V-Stamp WILL (Iron Nugget)
-  - 142: V-Stamp WILL (Iron Nugget)
   - 143-148 PLACEHOLDER V-Stamps
   - 149: Christmas Hat (Carved Pumpkin)
+  - 150-156: Game Cartridge - Spiritbound (Iron Nugget)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
