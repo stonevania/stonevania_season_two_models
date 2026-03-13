@@ -40,35 +40,17 @@ If your name isn’t listed, add it here with the next available 100-number rang
 - **(username):** (number range)
 
 ## Creating a Release
-The following is a simple breakdown of the steps necessary for generating a new release for the resource pack.
+Through the power of *CONTINUOUS INTEGRATION*, the process of actually **creating** the release is now handled **automatically**. 
 
-1. **Package the Project** 
-   - Using any command line tool, navigate to the root directory of the project and run the `make` command
-   - This generates a zip file using the current date as the file name and outputs a new SHA1 checksum to update the server with
+1. **Release Creation:**
+	- Once your PR is approved and merged, a release will be automatically created on the *release* branch, complete with your changes.
 
-2. **Commit the Release and Create a New Tag**
-   - Using your chosen method of source control, create a new tag for this release using semantic versioning
-   - Commit and push the new release and tag to GitHub
-
-3. **Make the Release**
-   - Using the GitHub website, make a new release using the appropriate tag
-   - When creating the release, ensure the following are correct:
-     - Release title is the same as the tag created in the last step
-	 - Release description is a copy of the README.md file
-	 - Add the compressed file created in step 1 above as a binary file
-
-4. **Update the Server**
-   - Copy the link to direct download the compressed file created in step 1 above
-     - Update the server.properties' `resource-pack` value with this link
-   - Copy the SHA1 checksum printed to your console in step 1
-     - Update the server.properties' `resource-pack-sha1` value with this
-   - When finished, the server.properties resource pack section should look similar to the below code block:
-```properties
-resource-pack=https://github.com/mietechnologies/stonevania_custom_models/releases/download/1.0.1/2025-01-27.zip
-resource-pack-id=
-resource-pack-prompt=
-resource-pack-sha1=ba099f05d64890057328ac44146bcf5fae918439
-```
+3. **Updating the Server:**
+	- However, the server still needs to be informed which key to use to decrypt the pack.
+	- ***Once your PR is merged, please contact an admin and have them use the `/fetchHash` command on the server console.***
+  
+5. **Updating the Client:**
+	- Once this has been completed, the new resource pack should be available to anyone who logs onto the server.
 
 ## Contained Models
 
