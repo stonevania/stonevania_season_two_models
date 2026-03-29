@@ -1,16 +1,16 @@
 {
   "pack": {
     "pack_format": 15,
-		"supported_formats": [15, 75],
+		"supported_formats": [15, 84],
 		"min_format": 15,
-		"max_format": 75,
+		"max_format": 84,
     "description": [
 			{
 				"text": "■ Stonevania Season 2\n■",
 				"color": "#808080"
 			},
 			{
-        "text": " MC Version 1.21.10",
+        "text": " MC Version 1.21.11",
 				"color": "#808080"
 			}
 		]
