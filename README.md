@@ -80,6 +80,7 @@ The following models are currently included in the resource pack:
   - 132-148: V-Stamps (Iron Nugget)
   - 149: Christmas Hat (Carved Pumpkin)
   - 150-160: Game Cartridge - Spiritbound (Iron Nugget)
+  - 161: Pilot Helmet 1920 (Carved Pumpkin)
 
 - **REDPalette12 (200–299):**  
   - 200: Akabeni Hat (Carved Pumpkin)
