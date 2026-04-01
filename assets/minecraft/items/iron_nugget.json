@@ -216,6 +216,20 @@
           "model": "custom:item/sho/game_cartridge/game_cartridge_pixels"
         },
         "threshold": 156
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/game_cartridge/game_cartridge_beans"
+        },
+        "threshold": 157
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/stamps/stamp_vanian_express_red"
+        },
+        "threshold": 143
       }
     ]
   }

@@ -83,6 +83,13 @@
           "model": "custom:item/sho/christmas_hat/christmas_hat"
         },
         "threshold": 149
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/sho/hats/pilot_helmet_1920"
+        },
+        "threshold": 161
       }
     ]
   }
