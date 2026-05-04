@@ -90,6 +90,167 @@
           "model": "custom:item/sho/hats/pilot_helmet_1920"
         },
         "threshold": 161
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/black_cowboy_hat"
+        },
+        "threshold": 501
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/brown_cowboy_hat"
+        },
+        "threshold": 502
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat1"
+        },
+        "threshold": 503
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat2"
+        },
+        "threshold": 504
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat3"
+        },
+        "threshold": 505
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat4"
+        },
+        "threshold": 506
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat5"
+        },
+        "threshold": 507
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat6"
+        },
+        "threshold": 508
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat7"
+        },
+        "threshold": 509
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat8"
+        },
+        "threshold": 510
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat9"
+        },
+        "threshold": 511
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat10"
+        },
+        "threshold": 512
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat11"
+        },
+        "threshold": 513
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat12"
+        },
+        "threshold": 514
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat13"
+        },
+        "threshold": 515
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat14"
+        },
+        "threshold": 516
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat15"
+        },
+        "threshold": 517
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat16"
+        },
+        "threshold": 518
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat17"
+        },
+        "threshold": 519
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat18"
+        },
+        "threshold": 520
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat19"
+        },
+        "threshold": 521
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/tallhat20"
+        },
+        "threshold": 522
+      },
+      {
+        "model": {
+          "type": "model",
+          "model": "custom:item/james/cowboy_hats/white_cowboy_hat"
+        },
+        "threshold": 523
       }
     ]
   }
