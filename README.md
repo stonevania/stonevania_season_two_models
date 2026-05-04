@@ -109,6 +109,10 @@ The following models are currently included in the resource pack:
 
 - **James (500–599):**  
   - 500: Pink Cowboy Hat (Carved Pumpkin)
+  - 501: Black Cowboy Hat (Carved Pumpkin)
+  - 502: Brown Cowboy Hat (Carved Pumpkin)
+  - 503-522: Tall Hat 1-20 (Carved Pumpkin)
+  - 523: White Cowboy Hat (Carved Pumpkin)
 
 - **Pixels (600–699):**  
   - 600: Pixels Hat (Carved Pumpkin)
